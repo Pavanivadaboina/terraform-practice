@@ -8,7 +8,6 @@ resource "aws_instance" "roboshop" {
   }
 }
 
-output "aws_instance_info"
-{
+output "aws_instance_info" {
   value = aws_instance.roboshop
 }
