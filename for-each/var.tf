@@ -18,3 +18,10 @@ variable "instances" {
   }
 }
 
+variable "zone_id" {
+  default = Z01785992HNK9EWV1B0IH
+}
+
+variable "domain" {
+  default = devopspractice.tech
+}
