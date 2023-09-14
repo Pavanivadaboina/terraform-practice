@@ -5,7 +5,6 @@ variable "ami_id" {
 
 variable "instances" {
   default = {
-
     mongo = "t3.medium"
     mysql = "t3.medium"
     redis = "t2.micro"
@@ -16,7 +15,6 @@ variable "instances" {
     shipping = "t2.micro"
     payment = "t2.micro"
     frontend = "t2.micro"
-
-
   }
 }
+
