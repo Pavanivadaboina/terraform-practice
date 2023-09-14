@@ -1,6 +1,6 @@
 resource "aws_security_group" "roboshop" {
   name        = "roboshop"
-  description = "Allow HTTP HTTPS SSH"
+  description = "Allow  HTTP HTTPS SSH"
 
   dynamic ingress {
     for_each = var.ingress #here you will get a variable ingress
