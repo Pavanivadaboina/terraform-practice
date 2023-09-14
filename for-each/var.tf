@@ -8,14 +8,14 @@ variable "instances" {
 
     mongo = "t3.medium"
     mysql = "t3.medium"
-    redis = "t3.medium"
-    rabbitmq = "t3.medium"
-    catalogue = "t3.medium"
-    user = "t3.medium"
-    cart = "t3.medium"
-    shipping = "t3.medium"
-    payment = "t3.medium"
-    frontend = "t3.medium"
+    redis = "t2.micro"
+    rabbitmq = "t2.micro"
+    catalogue = "t2.micro"
+    user = "t2.micro"
+    cart = "t2.micro"
+    shipping = "t2.micro"
+    payment = "t2.micro"
+    frontend = "t2.micro"
 
 
   }
