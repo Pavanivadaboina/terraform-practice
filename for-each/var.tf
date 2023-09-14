@@ -23,5 +23,5 @@ variable "zone_id" {
 }
 
 variable "domain" {
-  default = devopspractice.tech
+  default = "devopspractice.tech"
 }
