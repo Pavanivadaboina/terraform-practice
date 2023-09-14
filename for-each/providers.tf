@@ -13,7 +13,7 @@ backend "s3" {
   region = "us-east-1"
   dynamodb_table = "roboshop-lock"
 }
-}
+
 
 provider "aws" {
   # Configuration options
