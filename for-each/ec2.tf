@@ -4,7 +4,7 @@ resource "aws_instance" "roboshop" {
   instance_type = each.value
 
   tags = {
-    name = each.key["name"]
+    name = each.key
   }
 }
 
