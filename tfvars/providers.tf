@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket         = "terraform-bucket-3"
-    key            = "for-each-bucket"
+    key            = "tfvars"
     region         = "us-east-1"
     dynamodb_table = "roboshop-lock"
 
