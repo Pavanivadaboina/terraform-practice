@@ -1,16 +1,16 @@
-resource "aws_instance" "instances" {
+resource "aws_instance" "roboshop" {
   for_each = var.instances
   ami = var.ami_id
   instance_type = each.value
 
   tags = {
-    name = each.key
+    Name = each.key
   }
 }
 
 
 resource "aws_route53_record" "record" {
-  for_each = aws_instance.instances
+  for_each = aws_instance.roboshop
   zone_id = var.zone_id
   name    = "${each.key}.${var.domain}"
   type    = "A"
