@@ -26,7 +26,9 @@ variable "domain" {
   default = "devopspractice.tech"
 }
 
-variable "ingress" {
+
+
+  variable "ingress" {
 
   default = [
     {
