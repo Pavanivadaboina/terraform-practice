@@ -1,6 +1,6 @@
 instances = {
 
-  mongo-PROD = "t3.medium"
+  mongo-PROD = "t3.j"
   mysql-PROD = "t3.medium"
   redis-PROD = "t2.micro"
   rabbitmq-PROD = "t2.micro"
@@ -13,3 +13,11 @@ instances = {
 }
 
 sg_name = "allow-all-PROD"
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-resource "aws_instance" "conditions" {
+  resource "aws_instance" "conditions" {
   ami = var.ami_id
   instance_type = "var.instance_name" == "mysql" ? "t3.medium" : "t2.micro"
 }
